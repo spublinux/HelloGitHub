@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:28:46.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="t67rIb9ZL7ehJv5FGUQ1" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:30:33.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wtYS-YX-mABg7rtCd0WM" version="20.2.8" type="github">
   <diagram id="tJY2ODOWQmyJSE9CdAt4" name="第 1 页">
     <mxGraphModel dx="1564" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,15 +60,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pdvtcB01t5W5UgY1sVy7-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="G7RzPLKMRkM8X4vD6-xc-7" target="G7RzPLKMRkM8X4vD6-xc-13">
+        <mxCell id="pdvtcB01t5W5UgY1sVy7-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="G7RzPLKMRkM8X4vD6-xc-13">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="300" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="225" y="300" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="G7RzPLKMRkM8X4vD6-xc-7" value="Load Balancer&lt;br&gt;Logs" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.network_load_balancer;" parent="1" vertex="1">
-          <mxGeometry x="40" y="270" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pdvtcB01t5W5UgY1sVy7-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="G7RzPLKMRkM8X4vD6-xc-8">
           <mxGeometry relative="1" as="geometry">
@@ -148,6 +146,9 @@
         </mxCell>
         <mxCell id="pdvtcB01t5W5UgY1sVy7-30" value="Amazon ECS Logs" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
           <mxGeometry x="40" y="486" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pdvtcB01t5W5UgY1sVy7-32" value="&lt;span style=&quot;font-size: 10px; font-weight: 700;&quot;&gt;Load Balancer&lt;/span&gt;&lt;br style=&quot;font-size: 10px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 10px; font-weight: 700;&quot;&gt;Logs&lt;/span&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
